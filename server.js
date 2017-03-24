@@ -6,7 +6,7 @@ var mime = require('mime');
 var chatServer = require('./lib/chat_server');
 var cache = {};
 
-chat_server.listen(server)
+chatServer.listen(server)
 
 function send404(response) {
   response.writeHead(404,{'Content-Type':'text/plain'});
